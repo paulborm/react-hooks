@@ -1,0 +1,25 @@
+{
+  "name": "@paulborm/react-hooks",
+  "version": "0.0.0",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "repository": "https://github.com/paulborm/react-hooks",
+  "author": "Paul Borm",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "npm run watch",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-react-refresh-wrap": "2.3.2",
+    "parcel": "2.3.2",
+    "react": "17.0.2"
+  },
+  "peerDependencies": {
+    "react": ">16"
+  }
+}
